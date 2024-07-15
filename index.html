@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancionero</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .song-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+        }
+        .header {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Cancionero</h1>
+        <p>Un recopilatorio de tus canciones favoritas</p>
+    </div>
+
+    <!-- Índice -->
+    <div class="list-group">
+        <a href="#song1" class="list-group-item list-group-item-action">Amor en Zamba</a>
+        <a href="#song2" class="list-group-item list-group-item-action">Gustito a Mistol</a>
+        <a href="#song3" class="list-group-item list-group-item-action">Canción 3: Alfonsina y el Mar</a>
+    </div>
+
+    <hr>
+
+    <!-- Canción 1 -->
+    <div id="song1" class="my-4">
+        <h2>Amor en Zamba</h2>
+        <img src="img/AmorEnZamba.jpeg" alt="Amor en Zamba" class="song-image">
+        <p><a href="#top">Volver</a></p>
+    </div>
+
+    <!-- Canción 2 -->
+    <div id="song2" class="my-4">
+        <h2>Gustito a Mistol</h2>
+        <img src="img/GustitoAMistol.jpeg" alt="Gustito a Mistol" class="song-image">
+        <p><a href="#top">Volver</a></p>
+    </div>
+
+    <!-- Canción 3 -->
+    <div id="song3" class="my-4">
+        <h2>Alfonsina y el Mar</h2>
+        <img src="alfonsina-y-el-mar.jpg" alt="Alfonsina y el Mar" class="song-image">
+        <p><a href="#top">Volver al índice</a></p>
+    </div>
+</div>
+
+<!-- Bootstrap JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

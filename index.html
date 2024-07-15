@@ -26,33 +26,88 @@
     </div>
 
     <!-- Índice -->
-    <div class="list-group">
-        <a href="#song1" class="list-group-item list-group-item-action">Amor en Zamba</a>
-        <a href="#song2" class="list-group-item list-group-item-action">Gustito a Mistol</a>
-        <a href="#song3" class="list-group-item list-group-item-action">Canción 3: Alfonsina y el Mar</a>
+    <div id="accordion">
+        <!-- Cuecas Section -->
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Cuecas
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="#matecito">Matecito de Torongil</a></li>
+                        <li><a href="#flordesama">Flor de Sama</a></li>
+                        <li><a href="#jardindelarepublica">Jard&iacute;n de la rep&uacute;blica</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Zambas Section -->
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Zambas
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="#zamba1">Zamba 1</a></li>
+                        <li><a href="#zamba2">Zamba 2</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Soledad Pastorutti Section -->
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Soledad Pastorutti
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li><a href="#soledad1">Soledad 1</a></li>
+                        <li><a href="#soledad2">Soledad 2</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Añadir más secciones aquí -->
     </div>
 
     <hr>
 
     <!-- Canción 1 -->
-    <div id="song1" class="my-4">
-        <h2>Amor en Zamba</h2>
-        <img src="img/AmorEnZamba.jpeg" alt="Amor en Zamba" class="song-image">
-        <p><a href="#top">Indice</a></p>
+    <div id="matecito" class="my-4">
+        <h2>Matecito de Torongil</h2>
+        <img src="img/01_matecito.jpg" alt="Matecito de Torongil" class="song-image">
+        <p><a href="#top">Inicio</a></p>
     </div>
 
     <!-- Canción 2 -->
-    <div id="song2" class="my-4">
-        <h2>Gustito a Mistol</h2>
-        <img src="img/GustitoAMistol.jpeg" alt="Gustito a Mistol" class="song-image">
-        <p><a href="#top">Indice</a></p>
+    <div id="flordesama" class="my-4">
+        <h2>Flor de Sama</h2>
+        <img src="img/02_flordesama.jpg" alt="Flor de Sama" class="song-image">
+        <p><a href="#top">Inicio</a></p>
     </div>
 
     <!-- Canción 3 -->
-    <div id="song3" class="my-4">
-        <h2>Alfonsina y el Mar</h2>
-        <img src="alfonsina-y-el-mar.jpg" alt="Alfonsina y el Mar" class="song-image">
-        <p><a href="#top">Indice</a></p>
+    <div id="jardindelarepublica" class="my-4">
+        <h2>Jard&iacute;n de la rep&uacute;blica</h2>
+        <img src="img/03_jardindelarepublica.jpg" alt="Jardín de la república" class="song-image">
+        <p><a href="#top">Inicio</a></p>
     </div>
 </div>
 
